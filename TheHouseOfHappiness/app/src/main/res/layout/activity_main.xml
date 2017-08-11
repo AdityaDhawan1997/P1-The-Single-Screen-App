@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menu_text_view"
+        android:text="the house of happiness"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:background="#304ffe"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/pizza_image_view"
+        android:src="@drawable/pizza1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="4"
+        />
+    <TextView
+        android:id="@+id/pizza_text_view"
+        android:text="Pizzas"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:background="#f44336"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+
+        />
+    <ImageView
+        android:id="@+id/burger_image_view"
+        android:src="@drawable/burger"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/pizza_text_view"
+        android:layout_weight="2"
+        />
+    <TextView
+        android:id="@+id/contact_tezt_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Pizza Burger  Small-149 Large-269"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        />
+    <ImageView
+        android:id="@+id/pepperoni_image_view"
+        android:src="@drawable/pepperoni"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
+    <TextView
+        android:id="@+id/contact_tezt_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Cheese Pizza  Small-249 Large-459"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:text="Contact info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="#ff5722"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/contact_tezt_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Phone No-9780578322
+E-mail- gursimarsingh020@gmail.com"
+        android:textSize="20sp"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+</LinearLayout>
+
